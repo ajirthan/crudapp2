@@ -8,7 +8,7 @@ const port = 3000;
 require("dotenv");
 
 MongoClient.connect(
-  "mongodb://localhost:27017/",
+  "mongodb+srv://ajirthan:ajirthan1234@cluster0.fxeu2.mongodb.net/?retryWrites=true&w=majority",
   { useUnifiedTopology: true }
 )
   .then((client) => {
